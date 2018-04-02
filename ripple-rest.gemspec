@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project         = "ripple-rest"
 
-  s.add_dependency "rest-client", "~> 1.6.7"
+  s.add_dependency "rest-client", "~> 1.8.0"
 
   s.files        = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
   s.require_path = 'lib'
